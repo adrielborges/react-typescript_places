@@ -47,7 +47,11 @@
       }
     ],
     "no-use-before-define": "off",
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "react/prop-types":"off",
+    "react/jsx-props-no-spreading":"off",
+    "react/jsx-curly-newline":"off",
+    "no-plusplus":"off"
   },
   "settings": {
     "import/resolver": {
