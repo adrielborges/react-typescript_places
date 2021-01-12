@@ -1,1 +1,3 @@
 ### working in progress...
+
+some typescript file are incompatible, i'm trying to learn how to fix this bugs of typescript.

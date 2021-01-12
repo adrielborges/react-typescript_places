@@ -38,7 +38,7 @@ interface IPosition {
 
 export default function MapView(): JSX.Element {
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: 'AIzaSyB7GynLz2HCEtl9C5Re9jkzrImI_Xd1Wh4',
+    googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
     libraries: ['places'],
   });
 
