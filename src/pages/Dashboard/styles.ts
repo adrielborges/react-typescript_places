@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
-export const Container = styled.div``;
+export const Container = styled.div`
+  width: 100%;
+  height: 100%;
+`;
 
 export const NavBar = styled.div`
   display: flex;
@@ -12,8 +15,6 @@ export const NavBar = styled.div`
   height: 40px;
 
   padding: 0 15px;
-
-  border-radius: 0 0 5px 5px;
 `;
 
 export const ContainerMap = styled.div``;

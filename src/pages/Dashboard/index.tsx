@@ -1,21 +1,30 @@
 import React from 'react';
 
+import { CgProfile } from 'react-icons/cg';
+import { FiMenu } from 'react-icons/fi';
+
 import { Container, NavBar, ContainerMap } from './styles';
+
+import MapView from '../../components/MapView/index';
 
 const Dashboard: React.FC = () => {
   return (
     <Container>
       <NavBar>
-        <span>sanduiche</span>
+        <span>
+          <FiMenu />
+        </span>
 
         <span>
           <input type="text" name="" id="" placeholder=" Search Bar" />
         </span>
 
-        <span>avatar</span>
+        <span>
+          <CgProfile />
+        </span>
       </NavBar>
 
-      <ContainerMap>o MAPA</ContainerMap>
+      <MapView />
     </Container>
   );
 };

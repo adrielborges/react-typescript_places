@@ -12,7 +12,7 @@ export default createGlobalStyle`
 body {
   height: 100vh;
 
-  padding:0 10px;
+  padding:0 0px;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
